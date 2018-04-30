@@ -1,0 +1,17 @@
+
+spring:
+  profiles:
+    active: pro
+
+
+book:
+  name: 天觀雙俠
+  author: 許峻榕
+  isbn: ${random.uuid}
+  description: ${book.name},這本書不錯!
+
+# application-{pro}.yml
+
+# mvn package 打包jar包
+# java -jar SpringBootDemo-xxxx.jar --spring.profiles.active=dev
+  
