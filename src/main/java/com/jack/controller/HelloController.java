@@ -19,8 +19,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.jack.domain.Book;
 
-@Controller    //訪問頁面用Controller
-//@RestController
+//@Controller    //訪問頁面用Controller
+@RestController
 @RequestMapping("/api/v1")  //servlet context path 可於properties 自訂義
 public class HelloController {	
 	
